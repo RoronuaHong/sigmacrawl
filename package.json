@@ -1,0 +1,27 @@
+{
+  "name": "sigmacrawl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoronuaHong/sigmacrawl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoronuaHong/sigmacrawl/issues"
+  },
+  "homepage": "https://github.com/RoronuaHong/sigmacrawl#readme"
+}
